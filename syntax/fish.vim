@@ -17,7 +17,7 @@ syntax match fishTests /\v<%(contains|test|count|not)>/ nextgroup=fishStatement,
 syntax match fishComment /#.*/
 syntax match fishSpecial /\\$/
 syntax match fishOption	"\s\zs[-+][-_a-zA-Z#@]\+"
-syntax match fishOption	"\s\zs--[^ \t$`'"|);]\+\|/|{1}/"
+syntax match fishOption	"\s\zs--[^ \t$`'"|);]\+"
 syntax match fishIdentifier /\$[[:alnum:]_]\+/
 syntax region fishString start=/'/ skip=/\\'/ end=/'/
 syntax region fishString start=/"/ skip=/\\"/ end=/"/ contains=fishIdentifier
