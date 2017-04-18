@@ -35,7 +35,7 @@ highlight default link fishRepeat Repeat
 highlight default link fishLabel Label
 highlight default link fishComment Comment
 highlight default link fishSpecial Special
-highlight default link fishOption Directory
+highlight default link fishOption Todo
 highlight default link fishIdentifier Identifier
 highlight default link fishTests Identifier
 highlight default link fishString String
