@@ -1,6 +1,12 @@
 vim-fish
 ========
 
+>This was once hosted at github/onodera-punpun but it has been removed there.  
+> I had on old copy that is preserved here. 
+
+> ##### Addition:
+> I have added the Posix unix  commands.
+
 This is an addon for Vim providing support for editing [fish][] scripts.
 
 [fish]: https://github.com/fish-shell/fish-shell
@@ -91,5 +97,3 @@ you might want to set it to your second best shell instead.  If you use Vim in
 the terminal you could also train yourself to use `:st[op]` or CTRL-Z instead
 and then `fg` in fish to get back to Vim.
 
->This was once hosted at github/onodera-punpun but it has been removed there.  
->I had on old copy that is preserved here. 
